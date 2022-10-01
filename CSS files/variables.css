@@ -12,6 +12,7 @@
 :root {
   --font-title: "Knewave", cursive;
   --font-text: "Yanone Kaffeesatz", sans-serif;
+  --font-serif: "Roboto Slab", serif;
 }
 
 /* SHADOWS */

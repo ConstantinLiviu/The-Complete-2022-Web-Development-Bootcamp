@@ -10,6 +10,11 @@ h1 {
   margin: 0;
 }
 
+.home-btn {
+  background-color: #f2d388;
+  color: #874c62;
+}
+
 .middle-container {
   background-color: red;
   margin-left: 208px;

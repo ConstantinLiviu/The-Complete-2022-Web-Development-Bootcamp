@@ -1,0 +1,17 @@
+/* COLORS */
+:root {
+  --bgcolf1: #f1efdc;
+  --bgcole6: #e6d2aa;
+
+  --maincol: #42032c;
+  --seccolff: #ffb344;
+  --seccola0: #a01212;
+}
+
+/* FONTS */
+:root {
+  --font-title: "Knewave", cursive;
+  --font-text: "Yanone Kaffeesatz", sans-serif;
+}
+
+/* SHADOWS */

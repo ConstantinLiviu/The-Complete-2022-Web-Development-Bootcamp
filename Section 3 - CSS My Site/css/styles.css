@@ -2,25 +2,155 @@ body {
   margin: 0;
 }
 
-div {
-  background-color: #a7d2cb;
+h1,
+p {
+  font-family: var(--font-text);
 }
 
 h1 {
   margin: 0;
-}
-
-.home-btn {
-  background-color: #f2d388;
+  font-size: 4.2rem;
+  font-family: var(--font-serif);
   color: #874c62;
 }
 
-.middle-container {
-  background-color: red;
-  margin-left: 208px;
+.home-btn {
+  color: #f2d388;
+  background-color: #874c62;
 }
 
+hr {
+  border-style: dotted none none;
+  width: 5%;
+  border-width: 0.5rem;
+  border-color: #a7d2cb;
+  margin: 0 auto;
+}
+
+p {
+  line-height: 2;
+  margin-bottom: 2rem;
+  font-size: 1.6rem;
+  color: #c98474;
+  font-family: var(--font-serif);
+}
+
+h2 {
+  margin: 2rem 0;
+  font-size: 2.4rem;
+  font-family: var(--font-text);
+  color: #874c62;
+}
+
+h3 {
+  font-family: var(--font-text);
+  color: #874c62;
+  font-size: 1.8rem;
+}
+
+/* TOP CONTAINER */
+
+.top-container p {
+  font-size: 2rem;
+  margin: 0.5rem 0 0 2rem;
+  color: #c98474;
+  font-style: italic;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 30%;
+  top: 5rem;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 30%;
+}
+
+.top-container {
+  text-align: center;
+  padding-top: 10rem;
+  background-color: #a7d2cb;
+}
+
+.profile-pic,
+.computer-pic,
+.chillies-pic {
+  width: 10rem;
+}
+
+/* MIDDLE CONTAINER */
+
+.middle-container {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.profile {
+  padding-top: 2rem;
+  /* width: 50%; */
+  width: 600px;
+  margin: 0 auto;
+}
+
+.skill-row {
+  /* width: 30%; */
+  width: 600px;
+  margin: 10rem auto;
+  text-align: left;
+}
+
+.computer-pic {
+  float: left;
+  margin-right: 3rem;
+  border-radius: 0.5rem;
+}
+
+.chillies-pic {
+  float: right;
+  margin-left: 3rem;
+}
+
+.contact-me p {
+  margin-bottom: 4rem;
+}
+
+/* BOTTOM CONTAINER */
+
 .bottom-container {
-  background-color: yellow;
-  margin-left: 416px;
+  background-color: #a7d2cb;
+  margin-bottom: 0;
+  text-align: center;
+  padding: 2rem 0 1rem;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  background-color: #874c62;
+  color: #f2d388;
+  font-size: 1.4rem;
+  font-family: var(--font-text);
+  box-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
+  font-weight: 600;
+}
+
+.bottom-container p {
+  margin-bottom: 0;
+  font-family: var(--font-serif);
+  background-color: #a7d2cb;
+  margin-top: 1rem;
+  font-weight: 400;
+  color: rgb(143, 15, 15);
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #874c62;
+  margin: 0 2rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-family: var(--font-text);
 }

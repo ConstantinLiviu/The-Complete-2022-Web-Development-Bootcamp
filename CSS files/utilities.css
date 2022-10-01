@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.home-btn {
+  position: absolute;
+  top: 4rem;
+  right: 4rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: var(--font-text);
+  background-color: #0b5ed7;
+  color: white;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}

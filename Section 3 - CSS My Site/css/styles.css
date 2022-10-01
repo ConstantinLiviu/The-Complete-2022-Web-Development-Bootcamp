@@ -1,3 +1,21 @@
 body {
-  background-color: blue;
+  margin: 0;
+}
+
+div {
+  background-color: #a7d2cb;
+}
+
+h1 {
+  margin: 0;
+}
+
+.middle-container {
+  background-color: red;
+  margin-left: 208px;
+}
+
+.bottom-container {
+  background-color: yellow;
+  margin-left: 416px;
 }

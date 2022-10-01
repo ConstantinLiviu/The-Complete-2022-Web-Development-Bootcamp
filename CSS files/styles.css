@@ -3,5 +3,41 @@ BACKGROUNDCOLORS = #F1EFDC; #E6D2AA;
 MAINCOL = #42032C;
 SECCOLOR = #FFB344; #A01212;
 
-
 */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--bgcolf1);
+}
+
+/* TITLE SECTION */
+.title-wrapper {
+  background-color: var(--maincol);
+  height: 20vh;
+  text-align: center;
+  padding-top: 5rem;
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.title {
+  color: var(--seccolff);
+  font-family: var(--font-title);
+  font-size: 4.2rem;
+}
+
+/* GRID SECTION */
+.projects-container {
+  padding-top: 4rem;
+  background: var(--bgcolf1);
+}
+
+/* FOOTER */

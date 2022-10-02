@@ -27,6 +27,11 @@ hr {
   width: 5%;
 }
 
+a {
+  text-decoration: none;
+  color: #341155;
+}
+
 .home-btn {
   padding: 10px 20px;
   border-radius: 5px;

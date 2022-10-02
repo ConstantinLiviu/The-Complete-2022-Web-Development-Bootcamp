@@ -54,3 +54,36 @@ h1 {
   width: 60%;
   transform: rotate(20deg);
 }
+
+/* FEATURES SECTION */
+#features {
+  padding: 7% 15%;
+}
+
+.feature-item {
+  padding: 5%;
+}
+
+.feature-item i {
+  color: #ef8172;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.feature-item:first-child i {
+  font-weight: 600;
+}
+
+.feature-item i:hover {
+  color: #ff4c68;
+}
+
+.feature-item h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.feature-item p {
+  color: #8f8f8f;
+}

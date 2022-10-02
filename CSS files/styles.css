@@ -30,4 +30,9 @@ body {
   background: var(--bgcolf1);
 }
 
+.thumb {
+  width: 100%;
+  height: auto;
+}
+
 /* FOOTER */

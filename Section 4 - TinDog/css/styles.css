@@ -26,6 +26,10 @@ h3 {
   padding-bottom: 4.5rem;
 }
 
+body {
+  position: relative;
+}
+
 .nav-item {
   padding: 0 1.8rem;
   font-size: 1.4rem;
@@ -51,10 +55,11 @@ h3 {
 #title {
   background-color: #ff486c;
   color: white;
+  margin-bottom: 8rem;
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 0 15% 3%;
 }
 
 .dld-btn {
@@ -68,7 +73,11 @@ h3 {
 
 /* FEATURES SECTION */
 #features {
-  padding: 7% 15%;
+  padding: 0 15% 7%;
+  background-color: white;
+  position: absolute;
+  z-index: 1;
+  top: 46rem;
 }
 
 .feature-item {
@@ -120,4 +129,29 @@ h3 {
 #press img {
   width: 15%;
   margin: 2rem 2rem 5rem;
+}
+
+/* PRICING SECTION */
+#pricing {
+  padding-top: 3%;
+}
+#pricing .row {
+  margin-top: 4rem;
+}
+
+.price-card-txt {
+  font-weight: 500;
+  margin: 2rem 0 1rem;
+}
+.price-card-title {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.hidden-p {
+  opacity: 0;
+}
+
+.card {
+  margin-bottom: 2rem;
 }

@@ -3,6 +3,24 @@
   font-family: "Montserrat", sans-serif;
 }
 
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
 /* NAVBAR */
 .navbar {
   padding-bottom: 4.5rem;
@@ -33,13 +51,6 @@
 #title {
   background-color: #ff486c;
   color: white;
-}
-
-h1 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 3.5rem;
-  line-height: 1.5;
-  font-weight: 900;
 }
 
 .container-fluid {
@@ -78,12 +89,35 @@ h1 {
   color: #ff4c68;
 }
 
-.feature-item h3 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 1.5rem;
-}
-
 .feature-item p {
   color: #8f8f8f;
+}
+
+/* TESTIMONIALS SECTION */
+
+#testimonials {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.carousel-item img {
+  border-radius: 50%;
+  width: 10%;
+  margin: 2rem auto 1rem;
+}
+
+/* PRESS SECTION */
+
+#press {
+  background-color: #ff4c68;
+  padding-bottom: 3%;
+}
+
+#press img {
+  width: 15%;
+  margin: 2rem 2rem 5rem;
 }

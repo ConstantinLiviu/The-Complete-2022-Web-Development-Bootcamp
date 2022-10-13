@@ -27,3 +27,7 @@ html {
 .home-btn:active {
   transform: scale(0.9);
 }
+
+.home-btn:hover {
+  color: white;
+}

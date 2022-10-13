@@ -1,1 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+body {
+  width: 80%;
+  margin: 0 auto;
+  background: #fff3b0;
+}
+
+/* border: 1px solid red; */
+
+/* TITLE */
+
+.title {
+  margin-bottom: 8rem;
+}
+
+/* PROJECTS*/
+
+.project-wrapper {
+  box-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  max-height: 15rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  background-color: #e09f3e;
+  color: #780000;
+  transition: all 1s ease-out;
+}
+
+.project-wrapper:hover {
+  background-color: #bb9457;
+}
+
+.project-thumbnail {
+  /* max-width: 10rem; */
+  padding: 1rem 2rem;
+  border-left: 0.1rem solid #780000;
+  max-width: 150px;
+  margin-left: auto;
+}
+
+.project-description {
+  height: 100%;
+}
+
+.title-wrapper {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 2%;
+}
+
+.description-wrapper {
+  font-size: 1.5rem;
+  font-family: "Ubuntu", sans-serif;
+  color: #432818;
+}
+
+.test {
+  height: 0;
+  visibility: hidden;
+  transition: 1s all ease-out;
+}

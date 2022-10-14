@@ -15,10 +15,29 @@ body {
 /* TITLE */
 
 .title {
-  margin-bottom: 8rem;
+  padding: 4rem 0;
+  margin-bottom: 10rem;
+  background: #e09f3e;
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.title h1 {
+  font-size: 4rem;
+  font-family: var(--font-text);
+  color: #432818;
+}
+
+.home-btn {
+  top: 0;
+  /* right: 100px; */
+  right: 10%;
+  border-radius: 0 0 0.5rem 0.5rem;
 }
 
 /* PROJECTS*/
+.projects-container {
+  padding: 0;
+}
 
 .project-wrapper {
   box-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
@@ -27,8 +46,8 @@ body {
   margin-bottom: 2rem;
   cursor: pointer;
   background-color: #e09f3e;
-  color: #780000;
-  transition: all 1s ease-out;
+  color: #a50000;
+  transition: all 0.5s ease-out;
 }
 
 .project-wrapper:hover {
@@ -38,7 +57,7 @@ body {
 .project-thumbnail {
   /* max-width: 10rem; */
   padding: 1rem 2rem;
-  border-left: 0.1rem solid #780000;
+  border-left: 0.1rem solid #a50000;
   max-width: 150px;
   margin-left: auto;
 }
@@ -62,5 +81,5 @@ body {
 .test {
   height: 0;
   visibility: hidden;
-  transition: 1s all ease-out;
+  transition: 0.5s all ease-out;
 }
